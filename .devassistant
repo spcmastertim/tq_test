@@ -1,0 +1,18 @@
+dependencies:
+- rpm:
+  - /usr/bin/ruby
+- rpm:
+  - rubygem(rails)
+  - rubygem(sqlite3)
+  - rubygem(jquery-rails)
+  - rubygem(coffee-rails)
+  - rubygem(sass-rails)
+  - rubygem(uglifier)
+  - rubygem(therubyracer)
+devassistant_version: 0.9.2
+original_kwargs:
+  github: !!python/unicode 'spcmastertim'
+  name: !!python/unicode '/home/tquinn/Documents/projects/tq_test'
+project_type:
+- ruby
+- rails
